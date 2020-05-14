@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/bg1.jpg);
+height: 218vh;
+background-size: cover;
+background-position: center; 
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 25px;
+} 
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.title{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.title h1{
+color: #fff;
+font-size: 50px;
+}
+
+.button{
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+padding: 10px 20px;
+}
+
+table#table1 {
+width:70%; 
+margin-left: 18%;
+margin-right: 20%;
+color: #C0C0C0;
+}
+
+table#table2 {
+width:60%; 
+margin-left: 18%;
+margin-right: 20%;
+color: #C0C0C0;
+}
+
+table#table3 {
+width:70%; 
+margin-left: 18%;
+margin-right: 20%;
+color: #C0C0C0;
+}
+
+table#table4 {
+width:80%; 
+margin-left: 10%;
+margin-right: 20%;
+color: #C0C0C0;
+}
+
+table#table5 {
+width:70%; 
+margin-left:22%;
+margin-right: 22%;
+color: #C0C0C0;
+}
+
+.image{
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.audio{
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.statement{
+position: absolute;
+top: 75%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
